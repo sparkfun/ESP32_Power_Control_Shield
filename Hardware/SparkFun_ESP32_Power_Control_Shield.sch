@@ -19944,6 +19944,8 @@ Diodes</text>
 <text x="27.94" y="5.08" size="1.778" layer="97">Slew Rate:
 GND - SLOW - 3 us
 3.3V - FAST - 1.45 us</text>
+<text x="149.86" y="157.48" size="1.778" layer="97">VCC : 5-28VDC</text>
+<text x="172.72" y="81.28" size="1.778" layer="97">VCC : 5-28VDC</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
