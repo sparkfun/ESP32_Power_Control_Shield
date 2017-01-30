@@ -31,7 +31,7 @@
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,15 +46,15 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -209,6 +209,9 @@ Control Shield</text>
 <dimension x1="3.175" y1="47.625" x2="3.175" y2="50.8" x3="-5.08" y3="49.2125" textsize="1.778" textratio="15" layer="47" unit="inch" precision="3"/>
 <text x="36.83" y="-8.89" size="1.778" layer="47" font="vector" ratio="15">Units are in Inches</text>
 <text x="22.733" y="0.635" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">v01</text>
+<text x="31.75" y="1.27" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="center-left">I-Sense 6 (36)</text>
+<text x="31.75" y="3.81" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="center-left">I-Sense 4 (37)</text>
+<text x="31.75" y="6.35" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="center-left">I-Sense 2 (38)</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -252,6 +255,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
 <wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
 <wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
+</package>
+<package name="CPOL-RADIAL-2.5MM-6.5MM">
+<description>2.5 mm spaced PTHs with 6.5 mm diameter outline</description>
+<wire x1="-0.635" y1="1.778" x2="-1.905" y2="1.778" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="3.25" width="0.2032" layer="21"/>
+<pad name="2" x="-1.25" y="0" drill="0.7" diameter="1.651"/>
+<pad name="1" x="1.25" y="0" drill="0.7" diameter="1.651" shape="square"/>
+<text x="0" y="-3.429" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<text x="0" y="3.429" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<wire x1="1.905" y1="1.778" x2="0.635" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="2.413" x2="1.27" y2="1.143" width="0.2032" layer="21"/>
 </package>
 </packages>
 </library>
@@ -2242,6 +2256,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="B1" library="SparkFun-Boards" package="ESP32_THING" value="ESP32_THING" x="31.75" y="50.8" rot="R180">
 <attribute name="SF_ID" value="DEV-13907" x="31.75" y="50.8" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
+<element name="C19" library="SparkFun-Capacitors" package="CPOL-RADIAL-2.5MM-6.5MM" value="Ext." x="66.929" y="3.937" rot="R90">
+<attribute name="PROD_ID" value="CAP-08439" x="66.929" y="3.937" size="0.8128" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VCC">
@@ -2349,7 +2366,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="72.644" y1="5.1807" x2="72.644" y2="5.184" width="1.27" layer="1"/>
 <wire x1="72.644" y1="5.184" x2="69.85" y2="5.184" width="1.27" layer="1"/>
 <wire x1="69.85" y1="5.184" x2="66.929" y2="5.184" width="1.27" layer="1"/>
-<wire x1="66.929" y1="5.184" x2="60.198" y2="5.184" width="1.27" layer="1"/>
+<wire x1="66.929" y1="5.184" x2="63.5" y2="5.184" width="1.27" layer="1"/>
+<wire x1="63.5" y1="5.184" x2="60.198" y2="5.184" width="1.27" layer="1"/>
 <wire x1="60.198" y1="5.184" x2="59.69" y2="5.184" width="1.27" layer="1"/>
 <wire x1="59.69" y1="5.184" x2="59.69" y2="5.1807" width="1.27" layer="1"/>
 <wire x1="59.69" y1="5.1807" x2="57.404" y2="5.1807" width="1.27" layer="1"/>
@@ -2376,6 +2394,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="84.24" y1="5.184" x2="85.09" y2="5.184" width="0.6096" layer="1"/>
 <wire x1="66.548" y1="5.184" x2="66.929" y2="5.184" width="0.6096" layer="1"/>
 <wire x1="52.2022" y1="44.45" x2="52.2022" y2="46.99" width="1.27" layer="1"/>
+<contactref element="C19" pad="1"/>
+<wire x1="66.929" y1="5.187" x2="63.503" y2="5.187" width="0.254" layer="1"/>
+<wire x1="63.503" y1="5.187" x2="63.5" y2="5.184" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="J1" pad="GND"/>
@@ -2576,6 +2597,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="43.688" y="14.859" extent="1-16" drill="0.381"/>
 <via x="51.816" y="12.192" extent="1-16" drill="0.381"/>
 <via x="51.943" y="13.589" extent="1-16" drill="0.381"/>
+<contactref element="C19" pad="2"/>
 </signal>
 <signal name="P_OUT2">
 <contactref element="J3" pad="1"/>
