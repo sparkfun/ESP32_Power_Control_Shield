@@ -285,7 +285,9 @@
 <connect gate="G$1" pin="VPWR" pad="P$4 P$6 P$11 P$31"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13616"/>
+</technology>
 </technologies>
 </device>
 </devices>
