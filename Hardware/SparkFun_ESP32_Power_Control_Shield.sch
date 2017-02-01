@@ -21108,7 +21108,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R9" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="15KOHM" device="-0603-1/10W-1%" value="15k"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="0.1uF"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -21116,7 +21116,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R6" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="15KOHM" device="-0603-1/10W-1%" value="15k"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C14" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="C14" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="0.1uF"/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="240OHM" device="-0603-1/10W-1%" value="240"/>

@@ -29,9 +29,9 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -2171,10 +2171,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-00868" x="50.546" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C13" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="43.942" y="8.89" rot="R270">
-<attribute name="PROD_ID" value="CAP-00810" x="43.942" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="CAP-08390" x="43.942" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C14" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="35.052" y="8.89" rot="R270">
-<attribute name="PROD_ID" value="CAP-00810" x="35.052" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="CAP-08390" x="35.052" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C10" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="50.546" y="15.24" rot="R90">
 <attribute name="PROD_ID" value="CAP-00868" x="50.546" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
