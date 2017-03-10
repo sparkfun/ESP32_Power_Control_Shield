@@ -21339,7 +21339,9 @@ Specifications:
 <connect gate="G$1" pin="OUT" pad="VOUT"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="COM-13655"/>
+</technology>
 </technologies>
 </device>
 </devices>
