@@ -21425,28 +21425,28 @@ Specifications:
 <part name="C6" library="SparkFun-Capacitors" deviceset="10UF" device="-1210-50V-20%" value="10uF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="0.1uF"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1A/50V/1.1V"/>
-<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1A/50V/1.1V"/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1N4001"/>
+<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1N4001"/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1A/50V/1.1V"/>
-<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1A/50V/1.1V"/>
+<part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1N4001"/>
+<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1N4001"/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="D5" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1A/50V/1.1V"/>
-<part name="D6" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1A/50V/1.1V"/>
+<part name="D5" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1N4001"/>
+<part name="D6" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1N4001"/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="D7" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1A/50V/1.1V"/>
-<part name="D8" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1A/50V/1.1V"/>
+<part name="D7" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1N4001"/>
+<part name="D8" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1N4001"/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="D9" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1A/50V/1.1V"/>
-<part name="D10" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1A/50V/1.1V"/>
+<part name="D9" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1N4001"/>
+<part name="D10" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1N4001"/>
 <part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="D11" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1A/50V/1.1V"/>
-<part name="D12" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1A/50V/1.1V"/>
+<part name="D11" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1N4001"/>
+<part name="D12" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-PTH" value="1N4001"/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" value=""/>
@@ -21460,8 +21460,8 @@ Specifications:
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" value="Ext."/>
-<part name="IC1" library="SparkFun-IC-Amplifiers" deviceset="OPAMP-DUAL" device="U" value="OP-AMP"/>
-<part name="IC2" library="SparkFun-IC-Amplifiers" deviceset="OPAMP-DUAL" device="U" value="OP-AMP"/>
+<part name="IC1" library="SparkFun-IC-Amplifiers" deviceset="OPAMP-DUAL" device="U" value="LMV358"/>
+<part name="IC2" library="SparkFun-IC-Amplifiers" deviceset="OPAMP-DUAL" device="U" value="LMV358"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_06" device="3.5MM-6"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_03" device="SCREW"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
@@ -21489,13 +21489,13 @@ Specifications:
 <wire x1="144.78" y1="35.56" x2="147.32" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 <wire x1="248.92" y1="134.62" x2="144.78" y2="134.62" width="0.2032" layer="97" style="longdash"/>
 <wire x1="78.74" y1="185.42" x2="78.74" y2="35.56" width="0.2032" layer="97" style="longdash"/>
-<text x="2.54" y="180.34" size="2.54" layer="94">Half Bridge Drivers</text>
-<text x="81.28" y="177.8" size="2.54" layer="94">Feedback Current
+<text x="2.54" y="180.34" size="2.54" layer="97">Half Bridge Drivers</text>
+<text x="81.28" y="177.8" size="2.54" layer="97">Feedback Current
 Amplifiers</text>
-<text x="147.32" y="180.34" size="2.54" layer="94">Power Supply</text>
-<text x="147.32" y="127" size="2.54" layer="94">Protection
+<text x="147.32" y="180.34" size="2.54" layer="97">Power Supply</text>
+<text x="147.32" y="127" size="2.54" layer="97">Protection
 Diodes</text>
-<text x="147.32" y="93.98" size="2.54" layer="94">Connectors</text>
+<text x="147.32" y="93.98" size="2.54" layer="97">Connectors</text>
 <wire x1="78.74" y1="35.56" x2="78.74" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="144.78" y1="35.56" x2="78.74" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 <text x="27.94" y="5.08" size="1.778" layer="97">Slew Rate:
@@ -21504,6 +21504,11 @@ GND - SLOW - 3 us
 <text x="154.94" y="149.86" size="1.778" layer="97">VCC : 5-28VDC</text>
 <text x="165.1" y="86.36" size="1.778" layer="97">VCC : 5-28VDC</text>
 <text x="192.278" y="181.61" size="1.27" layer="97">NOTE: For VCC of 5V, close JP5 to bypass the DC/DC converter</text>
+<text x="81.28" y="170.18" size="1.27" layer="97">For more information about JP2-4,
+refer to the hookup guide.</text>
+<text x="165.1" y="138.938" size="1.27" layer="97">Note: For inductive loads, such as motors,
+a capacitor &gt;100uF (2.5mm pin pitch) may
+need to be installed at C15.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -21579,53 +21584,67 @@ GND - SLOW - 3 us
 <instance part="C9" gate="G$1" x="68.58" y="50.8"/>
 <instance part="GND7" gate="1" x="63.5" y="40.64"/>
 <instance part="D1" gate="G$1" x="167.64" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="165.3794" y="120.65" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="165.608" y="119.38" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="169.672" y="119.38" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="D2" gate="G$1" x="167.64" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="165.6334" y="110.49" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="165.608" y="109.22" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="169.672" y="106.68" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND19" gate="1" x="167.64" y="104.14"/>
 <instance part="SUPPLY17" gate="G$1" x="167.64" y="127"/>
 <instance part="D3" gate="G$1" x="182.88" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="180.6194" y="120.65" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="180.848" y="119.38" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="184.912" y="119.38" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="D4" gate="G$1" x="182.88" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="180.8734" y="110.49" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="180.848" y="109.22" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="184.912" y="106.68" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND20" gate="1" x="182.88" y="104.14"/>
 <instance part="SUPPLY18" gate="G$1" x="182.88" y="127"/>
 <instance part="D5" gate="G$1" x="198.12" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="195.8594" y="120.65" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="196.088" y="119.38" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="200.152" y="119.38" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="D6" gate="G$1" x="198.12" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="196.1134" y="110.49" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="196.088" y="109.22" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="200.152" y="106.68" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND21" gate="1" x="198.12" y="104.14"/>
 <instance part="SUPPLY20" gate="G$1" x="198.12" y="127"/>
 <instance part="D7" gate="G$1" x="213.36" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="211.0994" y="120.65" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="211.328" y="119.38" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="215.392" y="119.38" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="D8" gate="G$1" x="213.36" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="211.3534" y="110.49" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="211.328" y="109.22" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="215.392" y="106.68" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND24" gate="1" x="213.36" y="104.14"/>
 <instance part="SUPPLY23" gate="G$1" x="213.36" y="127"/>
 <instance part="D9" gate="G$1" x="228.6" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="226.3394" y="120.65" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="226.568" y="119.38" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="230.632" y="119.38" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="D10" gate="G$1" x="228.6" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="226.5934" y="110.49" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="226.568" y="109.22" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="230.632" y="106.68" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND25" gate="1" x="228.6" y="104.14"/>
 <instance part="SUPPLY24" gate="G$1" x="228.6" y="127"/>
 <instance part="D11" gate="G$1" x="243.84" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="241.5794" y="120.65" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="241.808" y="119.38" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="245.872" y="119.38" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="D12" gate="G$1" x="243.84" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="241.8334" y="110.49" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="241.808" y="109.22" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="245.872" y="106.68" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND27" gate="1" x="243.84" y="104.14"/>
-<instance part="SUPPLY26" gate="G$1" x="243.84" y="127"/>
+<instance part="SUPPLY26" gate="G$1" x="243.84" y="127" smashed="yes">
+<attribute name="VALUE" x="243.84" y="129.794" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 <instance part="JP1" gate="G$1" x="60.96" y="12.7"/>
 <instance part="GND4" gate="1" x="60.96" y="2.54"/>
 <instance part="SUPPLY10" gate="G$1" x="60.96" y="20.32"/>
