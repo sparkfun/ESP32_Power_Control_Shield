@@ -2335,8 +2335,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="SF_ID" value="PRT-08235" x="50.8" y="46.99" size="1.778" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
 <attribute name="PROD_ID" value="CONN-08288" x="50.8" y="46.99" size="1.778" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
 </element>
-<element name="R13" library="SparkFun-Resistors" package="0603" value="10k" x="34.798" y="25.908" rot="R270">
-<attribute name="PROD_ID" value="RES-00824" x="34.798" y="25.908" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<element name="R13" library="SparkFun-Resistors" package="0603" value="1k" x="34.798" y="25.908" rot="R270">
+<attribute name="PROD_ID" value="RES-07856" x="34.798" y="25.908" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="R10" library="SparkFun-Resistors" package="AXIAL-0.3" value="" x="40.005" y="17.78" rot="R180">
 <attribute name="PROD_ID" value="RES-12182" x="40.005" y="17.78" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
