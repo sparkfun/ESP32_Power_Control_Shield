@@ -10,8 +10,8 @@ The ESP32 Thing Power Control Shield is a small adapter board for the [ESP32 Thi
 Repository Contents
 -------------------
 
-* **/Production_Files** - Panelized version of the design for production
-* **/hardware** - All Eagle design files (.brd, .sch)
+* **/Production** - Panelized version of the design for production
+* **/Hardware** - All Eagle design files (.brd, .sch)
 
 License Information
 -------------------
